@@ -1,3 +1,8 @@
+// 1. Personalización de salidas a consola                               
+const bg = "linear-gradient(45deg, rgba(52, 152, 219, 1) 0%, rgba(26, 188, 156, 1) 50%)";
+const style_console = `background: ${bg}; color: white; border-radius: 6px; padding: 4px; font-size: 1.0rem; font-weight: bold;`;
+console.log("%c Ejercicio 01: Declaración de Varibles", style_console);
+
 // 1. Declaración de variables utilizando el prefijo VAR
 var miNombre = "Vane";
 var misApellidos;
